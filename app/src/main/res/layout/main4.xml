@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Top Content Here"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#F61010"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:text="First"
+
+        android:layout_toStartOf="@+id/first"
+        android:layout_centerVertical="true"
+        android:background="#18A63C"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:text="Second"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:background="#3F51B5"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:text="Three"
+        android:layout_toEndOf="@+id/first"
+        android:layout_centerVertical="true"
+        android:background="#F8BAA787"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Bottom Content Here"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#958A8A"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
